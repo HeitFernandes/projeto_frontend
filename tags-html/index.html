@@ -6,19 +6,50 @@
     <title>Tags HTML</title>
 </head>
 <body>
-    
-    <!-- Os h1, h2 entre outros são usados para determinar os títulos e dar prioridade através da hierarquia deles -->
 
+    <!-- Os h1, h2 entre outros são usados para determinar os títulos e dar prioridade através da hierarquia deles -->
     <h1>Titulo nível 1</h1>
     <h2>Titulo nível 2</h2>
     <h3>Titulo nível 3</h3>
 
+
+
     <!-- Este p é usado para parágrafo -->
+
+            <!-- Repare que o <br> está sendo utilizado para quebra de linha mas não é a forma correta de se fazer isso -->
+
     <p>Esse é um parágrafo de texto em HTML, e nao importa como eu escrevo, <br>
     por que ele sempre vai ser renderizado em uma única linha</p>
 
+
+
+
     <!-- Trazendo o Negrito para o parágrafo -->
+
+                                        <!-- Forma não semantica -->
         <p><b>Este parágrafo está em negrito.</b> Usando uma tag não semantica</p>
+
+                                        <!-- Forma semantica -->
         <p><strong>Esse é um texto em negrito. </strong> Usando uma tag semantica</p>
+
+
+
+    <!-- Trazendo o Italico para o parágrafo -->
+
+                                <!-- Forma não semantica -->
+        <p>Este é um texto com ênfase, <i>usando uma tag não semantica</i></p>
+
+                                <!-- Forma semantica -->
+        <p>Este é um texto com ênfase, <em>usando uma tag não semantica</em></p>
+
+
+    <!-- Usando sup para formatacao de numero 
+     == <sup> para elevar 
+    == <sub> para abaixar
+        Repare no exemplo abaixo
+ -->
+        <p>Minha casa tem 80m<sup>2</sup></p>
+        <p>A composicão química da água é H<sub>2</sub>O</p>
+
 </body>
 </html>
