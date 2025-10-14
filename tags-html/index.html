@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!--Para o navegador identificar o tipo de texto, previne o risco de digitacao de ç entre outros-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tags HTML</title>
 </head>
-<!-- <body> -->
+<body>
 
     <!-- Os h1, h2 entre outros são usados para determinar os títulos e dar prioridade através da hierarquia deles -->
     <h1>Titulo nível 1</h1>
@@ -54,8 +54,61 @@
         <hr>
 
         <!-- Estrutura para colocar imagem, alt é um texto alternativo, é o que descreve a imagem -->
-         
+
         <img src="./img/paisagemFull.jpeg" alt="Bosque com árvores verdes e folhas secas ao chão.">
+
+
+        <!--
+
+                                    Criando listas 
+        == <ol> lista ordenada
+        == <ul> lista desordenada
+        == logo apos o uso repare que tem o type, que seria o estilo dela, em a, A, I entre outros. E veja tambem o start == Fala de que numero a lista deve começar
+        -->
+
+        <h2>Listas</h2>
+
+        <h3>Listas Ordenada</h3>
+        <ol type="1" start="5">
+            <li>Colocar os ovos na batedeira</li>
+            <li>Colocar a farinha</li>
+            <li>Colocar o açucar</li>
+            <li>Colocar o leite</li>
+        </ol>
+
+
+        <h3>Listas Desordenada</h3>
+        <ul type="square">
+            <li>comprar café</li>
+            <li>comprar pão</li>
+            <li>comprar sabão</li>
+            <ul>
+                <li>sabão</li>
+                <li>detergente</li>
+                <li>água sanitaria</li>
+            </ul>
+        </ul>
+
+
+
+<!--
+                        <hr> para colocar linha de separacao
+-->
+
+    <hr>
+
+    <!-- 
+            Colocando textos com links embutidos, repare na estrutura que faz o link, <a href="linkDigitado", o target "_blank" é para abrir uma outra guia sem fechar a principal, o que seria a do link.
+
+            Podemos usar uma estrutura nova que é os rel="", ele mostra para o navegador que é uma estrutura externa, mostra a relacao com o site. Repare nisso.
+
+    -->
+
+
+    <a href="https://github.com/HeitFernandes/projeto_frontend" target="_blank" rel="external">Clique aqui para ver o projeto frontEnd</a>
+
+
+
 
 </body>
 </html>
