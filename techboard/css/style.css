@@ -58,7 +58,8 @@ h1 span {
 }
 
 h1{
-    font-size: 85px;
+    text-align: center;
+    font-size: 64px;
     font-family:"Unbounded", sans-serif;
 }
 
@@ -66,11 +67,19 @@ h1{
 a{
     color: #FFFFFF;
     font-family: "Poppins", sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     text-decoration:none;
+    background-color: #9747FF;
+    width: 340px;
+    height: 68px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
 }
 
 p{
+    text-align: center;
     font-family: "Poppins", sans-serif;
-    font-size: 32px;
+    font-size: 24px;
 }
